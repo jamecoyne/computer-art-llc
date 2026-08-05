@@ -1,7 +1,17 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
     <main className="flex min-h-dvh flex-col bg-white px-6">
       <div className="flex flex-1 flex-col items-center justify-center gap-4">
+        <Image
+          src="/sketch.png"
+          alt="Hand, heart, and computer sketch"
+          width={688}
+          height={546}
+          priority
+          className="h-auto w-56 opacity-50 sm:w-72"
+        />
         <h1 className="text-center text-2xl font-normal tracking-tight text-black sm:text-4xl">
           Computer, Art, LLC
         </h1>
