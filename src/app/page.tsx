@@ -13,7 +13,7 @@ export default function Home() {
           className="h-auto w-56 opacity-50 sm:w-72"
         />
         <h1 className="text-center text-2xl font-normal tracking-tight text-black sm:text-4xl">
-          Computer, Art, LLC
+          Computer Art, LLC
         </h1>
         <p className="max-w-md text-center text-sm font-normal text-neutral-600 sm:text-base">
           Computer Art, LLC is a creative services and production company by
